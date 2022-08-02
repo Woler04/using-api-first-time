@@ -45,7 +45,6 @@ function loadDoc() {
     xhttp.send();
     posts = xhttp.responseXML.getElementsByTagName("post");
     
-
     //let i = Math.floor(Math.random() * posts.length) + 1;
     //console.log(i);
     //let url = posts[i].getAttribute("preview_url");
